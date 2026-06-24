@@ -1,0 +1,13 @@
+# Changelog
+
+All notable changes to this project are documented here. The format is based on
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to
+[Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.1.0]
+
+### Added
+
+- Initial release: `Price::from_string` / `Price::parse` — a faithful port of the
+  `price-parser` Python package. Extracts a price amount and currency from a string,
+  detecting 400+ currency symbols/codes and guessing the decimal/thousands separator.
